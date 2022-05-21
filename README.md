@@ -1,0 +1,2 @@
+# CSE-438-DATA-COMMUNICATION-NETWORK
+I got introduced to International Standards Organization Open System Interconnection (ISO-OSI) reference model, design issues and protocols in the physical layer, data link layer and network layer; architectures and control algorithms of local area networks, point-to-point networks and satellite networks; standards in network access protocols; models of network interconnection, an overview of networking and communication software: This course has mandatory laboratory sessions every week.
