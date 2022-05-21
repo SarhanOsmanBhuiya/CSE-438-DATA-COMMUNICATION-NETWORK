@@ -1,0 +1,207 @@
+.name{
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+	background-color: #438CC1;
+	border-radius: 5px;
+}
+
+.search{
+	float: right;
+	border: none;
+}
+
+.searchbtn{
+	width: 20%;
+	background-color: #438CC1;
+	border-radius: 5px;
+  float: right;
+  margin-top: -30px;
+}
+
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  font-weight: bold;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	text-align: center;
+	padding: 10px 0;
+	background-color: #438CC1;
+	margin-top: 10px;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 5px;
+
+}
+
+.footer ul li i{
+	color: white;
+}
+
+.foot{
+	text-align: left;
+	padding: 40px 0;
+}
+
+.foot ul li {
+	list-style: none;
+	font-weight: bold;
+	padding: 3px 0;
+}
+
+.foot ul li a{
+	color: grey;
+}
+
+.foot ul li a:hover{
+	color: black;
+}
+
+.footer h4, .foot h4{
+	font-weight: bolder;
+	margin-bottom: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.footer ul li{
+	display: inline-block;
+	padding: 0px 15px;
+	margin-top: 10px;
+}
+
+.end{
+	text-align: center;
+	padding: 5px 0;
+	border-top: 2px solid grey;
+}
+
+
+
+.contact{
+	background-color: #555555;
+	width: 95%;
+	margin-left: 30px;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.contact h2 span{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.contact h2 span:hover{
+	color: grey;
+}
+
+.booklist{
+	background-color: #555555;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+	list-style: none;
+	height: 300px;
+}
+
+.list{
+	background-color: white;
+	height: 200px;
+}
+
+.student{
+	text-align: center;
+}
+
+.student h1{
+	background-color: #555555;
+	border-radius: 5px;
+	color: white;
+	padding: 3px;
+}
+
+.ab{
+	width: 100%;
+}
+
+.btn1{
+  padding: 10px;
+  font-weight: bolder;
+  color: white;
+  background-color: #555555;
+  width: 30%;
+}

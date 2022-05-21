@@ -1,0 +1,369 @@
+.name{
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+	background-color: #438CC1;
+	border-radius: 5px;
+}
+
+.search{
+	float: right;
+	border: none;
+}
+
+.searchbtn{
+	width: 20%;
+	background-color: #438CC1;
+	border-radius: 5px;
+}
+
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  font-weight: bold;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.signin{
+	text-align: center;
+}
+
+
+.imgcontainer{
+	margin-left: 300px;
+	width: 20%;
+}
+
+.b{
+	width: 100%;
+	text-align: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Center the avatar image inside this container */
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  margin-left: 225px;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+
+
+
+
+
+
+
+
+.signup{
+	text-align: center;
+	background-color: #555555;
+	color: white;
+}
+
+
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+ 
+  width: 20%;
+  text-align: center;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 20%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	text-align: center;
+	padding: 10px 0;
+	background-color: #438CC1;
+	margin-top: 10px;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 5px;
+
+}
+
+.footer ul li i{
+	color: white;
+}
+
+.foot{
+	text-align: left;
+	padding: 40px 0;
+}
+
+.foot ul li {
+	list-style: none;
+	font-weight: bold;
+	padding: 3px 0;
+}
+
+.foot ul li a{
+	color: grey;
+}
+
+.foot ul li a:hover{
+	color: black;
+}
+
+.footer h4, .foot h4{
+	font-weight: bolder;
+	margin-bottom: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.footer ul li{
+	display: inline-block;
+	padding: 0px 15px;
+	margin-top: 10px;
+}
+
+.end{
+	text-align: center;
+	padding: 5px 0;
+	border-top: 2px solid grey;
+}
+
+
+
+.contact{
+	background-color: #555555;
+	width: 95%;
+	margin-left: 30px;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.contact h2 span{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.contact h2 span:hover{
+	color: grey;
+}
+
+.booklist{
+	background-color: #555555;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+	list-style: none;
+	height: 300px;
+}
+
+.list{
+	background-color: white;
+	height: 200px;
+}
+
+.student{
+	text-align: center;
+}
+
+.student h1{
+	background-color: #555555;
+	border-radius: 5px;
+	color: white;
+	padding: 3px;
+}
+
+.ab{
+	width: 100%;
+}
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) 
+{
+	img.avatar {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: -35px;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	img.avatar {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 135px;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+
+{
+	img.avatar {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 220px;
+}
+}

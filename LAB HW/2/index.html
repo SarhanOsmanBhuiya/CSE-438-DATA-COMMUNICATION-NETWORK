@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LAB-4</title>
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="script.js"></script>
+		<meta charset="utf-8">
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="row c">
+			<div class="col-md-8">
+				<h1>FORM VALIDATION</h1>
+			</div>
+		</div>
+		<div class="box row">
+
+			<div class="col-md-3 col-md-offset-3">
+				<div class="b">Name</div>
+				<div class="b">Username</div>
+				<div class="b">Password</div>
+				<div class="b">Re-Type Password</div>
+				<div class="b">Gender</div>
+				<div class="b">Programming Skills</div>
+				<div class="b">Contact No.</div>
+				<div class="b">Email</div>
+				<div class="b">College</div>
+			</div>
+
+			<div class="col-md-5">
+				<form method="post" name="myform" onsubmit="return validation()">
+					
+					<input class="a" type="text" value="" name="name" placeholder="Name">
+					<br>
+
+					
+					<input class="a" type="text" value="" name="username" placeholder="Username">
+					<br>
+
+					
+					<input class="a" type="password" value="" name="password" placeholder="Password">
+					<br>
+
+					<input class="a" type="password" value="" name="retypepassword" placeholder="Re-Type Password">
+					<br>
+
+					<div class="a gender">
+					    <form method="submit" action="">
+					      <fieldset>
+					     
+					        <label for="male">Male</label>
+					        <input type="radio" name="gender" id="male" value="male" checked>
+					        <label for="female">Female</label>
+					        <input type="radio" name="gender" id="female" value="female">
+					        <label for="female">Other</label>
+					        <input type="radio" name="gender" id="female" value="other">
+					      </fieldset>
+					</div>
+
+					<div class="a skills">
+					    <form method="submit" action="">
+					      <fieldset>
+					     
+					        <label for="male">JAVA</label>
+					        <input type="checkbox" name="gender" id="male" value="male" checked>
+					        <label for="female">Android</label>
+					        <input type="checkbox" name="gender" id="female" value="female">
+					        <label for="female">Ruby</label>
+					        <input type="checkbox" name="gender" id="female" value="other">
+					        <label for="female">.Net</label>
+					        <input type="checkbox" name="gender" id="female" value="other">
+					      </fieldset>
+					</div>
+
+					<input class="a" type="tel" value="" name="contact" placeholder="">
+					<br>
+
+					<input class="a" type="text" value="" name="email" placeholder="E-mail Address">
+					<br>
+
+					<div class="a select">
+						<select>
+						  <option value="select">-Select-</option>
+						  <option value="rajuk">Rajuk</option>
+						  <option value="vns">VNS</option>
+						  <option value="ideal">Ideal College</option>
+						  <option value="cambrian">Cambrian</option>
+						</select>
+					</div>
+
+					<br><br>
+
+					<input class="btn" type="submit" value="SUBMIT">
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

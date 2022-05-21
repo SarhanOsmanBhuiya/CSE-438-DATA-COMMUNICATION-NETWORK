@@ -1,0 +1,47 @@
+.header h1{
+	height: 90px;
+	color: red;
+	text-align: center;
+}
+
+.header{
+	background-color: black;
+	/*background-image: url("images.jpg");*/
+	background-repeat: no-repeat;
+	border:5px solid blue;
+}
+
+.image{
+	width: 25%;
+	margin-left: 35%;
+}
+
+.div1{
+	border: 1px solid red;
+	padding: 10px;
+	box-shadow: 5px 10px;
+}
+
+.div2{
+	border: 1px solid blue;
+	padding: 10px;
+	box-shadow: 5px 10px green;
+}
+
+.div3{
+	border: 1px solid yellow;
+	padding: 10px;
+	box-shadow: 5px 10px 3px red;
+}
+
+#a{
+	border: 1px solid red;
+	padding: 10px;
+	box-shadow: 5px 10px 8px 10px blue;
+}
+
+.b{
+	border: 1px solid blue;
+	padding: 10px;
+	box-shadow: 5px 10px 3px 7px inset;
+}

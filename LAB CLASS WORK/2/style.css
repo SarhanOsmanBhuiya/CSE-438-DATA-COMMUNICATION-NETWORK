@@ -1,0 +1,56 @@
+.header{
+	background: #BFBFBF;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.logo{
+	background: white;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+
+.ab{
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+}
+
+.body{
+	margin-top: 2px;
+}
+
+.navbar{
+	background: #8abbf7;
+	padding: 14px;
+}
+
+.navbar ul li{
+	font-size: 20px;
+	font-weight: bolder;
+	list-style: none;
+	text-align: center;
+	margin-left: -30px;
+	color: white;
+}
+
+
+
+.mainbody{
+	background-color: #438cc1;
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
+
+.advertisement{
+	background: #8abbf7;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.end{
+	padding: 30px 0;
+	border-top: 2px solid grey;
+	text-align: center;
+}
